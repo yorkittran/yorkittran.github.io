@@ -72,20 +72,20 @@ img {
     bottom: .2em;
     width: 100%;
     height: 2px;
-    background-color: #ff5981
+    background-color: #256D85
 }
 
 .u-link:hover:before {
-    background-color: #fa8072
+    background-color: #8FE3CF
 }
 
 .u-shadow {
-    text-shadow: 4px 4px 0 #ff0b46;
+    text-shadow: 4px 4px 0 #256D85;
     transition: text-shadow .2s ease-in-out
 }
 
 a:hover .u-shadow {
-    text-shadow: -4px -4px 0 salmon
+    text-shadow: -4px -4px 0 #8FE3CF
 }
 
 @media (max-width:767px) {
@@ -234,6 +234,10 @@ ul {
     margin-top: 6.4rem
 }
 
+.l-Section:last-child {
+    margin-bottom: 6.4rem
+}
+
 .l-Section + .l-Section {
     position: relative;
     border-top: 1px solid #ddd
@@ -349,11 +353,11 @@ ul {
 a.Navbar-btn {
     padding-left: 2rem;
     padding-right: 2rem;
-    background: #ff0b46
+    background: #256D85
 }
 
 a.Navbar-btn:hover {
-    background: #fa8072
+    background: #8FE3CF
 }
 
 @media (max-width:767px) {
@@ -385,19 +389,11 @@ a.Navbar-btn:hover {
     top: 0;
     left: 0;
     right: 0;
-    height: 1em;
+    height: 1.2em;
     bottom: 0;
     margin: auto;
     border-radius: .2rem;
-    background-color: rgba(255, 11, 70, .5);
-    transition: all .8s .4s ease-in-out
-}
-
-.Tag:hover:before {
-    transform: scale(1.05, 2.4);
-    background-color: #ff0b46;
-    transition-delay: 0s;
-    transition-duration: .2s
+    background-color: #8FE3CF;
 }
 
 @media print {
